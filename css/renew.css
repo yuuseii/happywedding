@@ -359,19 +359,11 @@ body{
 	}
 
 	.bgpic{
-		-webkit-transform: scale(1);
-		display: block;
-		position: absolute;
-		left: 50px;
-		bottom: 0px;
-	}
-
-	.bgpic{
-		-webkit-transform: scale(1.5);
+		-webkit-transform: scale(1.4);
 		transform-origin: right bottom;
 		display: block;
 		position: absolute;
-		left: 20%;
+		left: 120px;
 		transform: translateX();
 		bottom: -40px;
 	}
@@ -385,7 +377,7 @@ body{
 
 		position: fixed;
 		left:-70px;
-		top: -140px;
+		top: -120px;
 	}
 
 
@@ -403,20 +395,21 @@ body{
 
 
 	.bgpic{
-		-webkit-transform: scale(1.7);
+		-webkit-transform: scale(1.5);
 		transform-origin: right bottom;
 		display: block;
 		position: absolute;
-		left: 30%;
+		left: 130px;
 		transform: translateX();
-		bottom: 00px;
+		bottom: -90px;
 	}
 
 	.btn{
+		padding: 25px;
 
 		position: fixed;
-		left:-70px;
-		top: -130px;
+		left:-80px;
+		top: -100px;
 		
 	}
 
@@ -429,20 +422,21 @@ body{
 	}
 
 	.bgpic{
-		-webkit-transform: scale(1.5);
+		-webkit-transform: scale(1.4);
 		transform-origin: right bottom;
 		display: block;
 		position: absolute;
-		left: 18%;
 		transform: translateX();
 		bottom: 150px;
 	}
 
 	.btn{
 
+		padding: 5px 20px;
+
 		position: fixed;
 		left:-70px;
-		top: 200px;
+		top: -140px;
 
 		
 	}
