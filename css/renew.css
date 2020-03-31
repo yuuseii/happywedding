@@ -106,6 +106,10 @@ body{
 	width: 100%;
 }
 
+.bgpic{
+	display: none;
+}
+
 
 .main{
 	margin: 0px auto;
@@ -314,6 +318,17 @@ body{
 
 	}
 
+	.bgpic{
+		/*-webkit-transform: scale(1.8);
+		width: 1000px;*/
+		display: block;
+		position: absolute;
+		left: 50%;
+		transform: translateX();
+		bottom: 100px;
+		z-index: 9;
+	}
+
 
 
 }
@@ -343,7 +358,41 @@ body{
 
 	}
 
+	.bgpic{
+		-webkit-transform: scale(1);
+		display: block;
+		position: absolute;
+		left: 50px;
+		bottom: 0px;
+	}
+
+	.bgpic{
+		-webkit-transform: scale(1.5);
+		transform-origin: right bottom;
+		display: block;
+		position: absolute;
+		left: 20%;
+		transform: translateX();
+		bottom: -40px;
+	}
+
+	.btn{
+		border: 2px #fff solid;
+		background: #F29A8C;
+		color: #fff;
+		font-size: 20px;
+		padding: 5px 20px;
+
+		position: fixed;
+		left:-70px;
+		top: -140px;
+	}
+
+
+
 }
+
+
 @media(max-width: 375px){
 	.couple{
 		-webkit-transform: scale(0.8);
@@ -352,15 +401,50 @@ body{
 		right: -50px;
 	}
 
+
+	.bgpic{
+		-webkit-transform: scale(1.7);
+		transform-origin: right bottom;
+		display: block;
+		position: absolute;
+		left: 30%;
+		transform: translateX();
+		bottom: 00px;
+	}
+
+	.btn{
+
+		position: fixed;
+		left:-70px;
+		top: -130px;
+		
+	}
+
 }
 
 @media(max-width: 320px){
 	.couple{
 		bottom: -100px;
 		right: -50px;
+	}
 
+	.bgpic{
+		-webkit-transform: scale(1.5);
+		transform-origin: right bottom;
+		display: block;
+		position: absolute;
+		left: 18%;
+		transform: translateX();
+		bottom: 150px;
+	}
 
+	.btn{
 
+		position: fixed;
+		left:-70px;
+		top: 200px;
+
+		
 	}
 
 	
