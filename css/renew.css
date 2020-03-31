@@ -422,7 +422,7 @@ body{
 	}
 
 	.bgpic{
-		-webkit-transform: scale(1.4);
+		-webkit-transform: scale(1.5);
 		transform-origin: right bottom;
 		display: block;
 		position: absolute;
