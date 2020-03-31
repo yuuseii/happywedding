@@ -275,6 +275,7 @@ body{
 	right: 0;
 	bottom: 100px;
 	display: none;
+	z-index: 99;
 }
 
 
@@ -340,7 +341,36 @@ body{
 		bottom: -100px;
 		right: -50px;
 
+
+
 	}
+
+	
+
+	.content h1,.content h2{
+		font-size: 16px;
+	}
+
+	.info p{
+		font-size: 15px;
+		text-align: center;
+		line-height: 22px;
+	}
+
+	.info a{
+		font-size: 15px;
+	}
+
+	.info a:hover, .iinfo a:focus{
+		font-size: 15px;
+
+	}
+
+	.text_s{
+		font-size: 12px;
+	}
+
+
 
 }
 
