@@ -395,13 +395,13 @@ body{
 
 
 	.bgpic{
-		-webkit-transform: scale(1.5);
+		-webkit-transform: scale(1.4);
 		transform-origin: right bottom;
 		display: block;
 		position: absolute;
-		left: 130px;
+		left: 110px;
 		transform: translateX();
-		bottom: -90px;
+		bottom: -95px;
 	}
 
 	.btn{
