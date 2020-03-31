@@ -395,11 +395,11 @@ body{
 
 
 	.bgpic{
-		-webkit-transform: scale(1.4);
+		-webkit-transform: scale(1);
 		transform-origin: right bottom;
 		display: block;
 		position: absolute;
-		left: 110px;
+		left: 50px;
 		transform: translateX();
 		bottom: -95px;
 	}
@@ -409,7 +409,7 @@ body{
 
 		position: fixed;
 		left:-80px;
-		top: -100px;
+		top: -50px;
 		
 	}
 
@@ -422,12 +422,11 @@ body{
 	}
 
 	.bgpic{
-		-webkit-transform: scale(1.35);
+		-webkit-transform: scale(1);
 		transform-origin: right bottom;
 		display: block;
 		position: absolute;
-		right: -40px;
-		transform: translateX();
+		left: 35px;
 		bottom: 150px;
 	}
 
