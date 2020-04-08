@@ -58,10 +58,12 @@ body{
 
 
 .wrap{
+	max-width: 1440px;
 	margin: 0 auto;
 	background: -webkit-radial-gradient(circle, #fff 10%,#FBE0D8 70%) ;
 	/*border:red 1px solid;*/
 	position: relative;
+	overflow: hidden;
 }
 
 .header{
@@ -99,10 +101,20 @@ body{
 
 .back_lace{
 	position: absolute;
+	z-index: 2;
 	bottom: 100px;
 	background-image: url(https://i.imgur.com/jVrJjGO.png);
 	background-repeat: repeat-x;
 	height: 37px;
+	width: 100%;
+}
+
+.back_lace2{
+	position: absolute;
+	bottom: -50px;
+	background-image: url(https://i.imgur.com/nAktzGd.png);
+	background-repeat: repeat-x;
+	height: 720px;
 	width: 100%;
 }
 
@@ -136,6 +148,7 @@ body{
 	max-width: 350px;
 	margin: 25px auto 20px auto;
 	padding: 20px;
+	padding-top: 60px;
 	/*border: #000 2px solid;*/
 	display: none;
 	color: #000;
@@ -348,7 +361,8 @@ body{
 
 	.card{
 
-		margin: 50px auto 20px auto;	
+		margin: 40px auto 20px auto;
+		padding-top: 20px;	
 	}
 
 	.couple{
@@ -359,13 +373,13 @@ body{
 	}
 
 	.bgpic{
-		-webkit-transform: scale(1.4);
+		-webkit-transform: scale(1.3);
 		transform-origin: right bottom;
 		display: block;
 		position: absolute;
 		left: 120px;
 		transform: translateX();
-		bottom: -40px;
+		bottom: 0px;
 	}
 
 	.btn{
@@ -378,6 +392,7 @@ body{
 		position: fixed;
 		left:-70px;
 		top: -120px;
+
 	}
 
 
